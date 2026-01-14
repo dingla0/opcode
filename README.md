@@ -43,14 +43,14 @@ Think of opcode as your command center for Claude Code - bridging the gap betwee
 ## 📋 Table of Contents
 
 - [🌟 Overview](#-overview)
+- [📋 Table of Contents](#-table-of-contents)
 - [✨ Features](#-features)
-  - [🗂️ Project & Session Management](#️-project--session-management)
-  - [🤖 CC Agents](#-cc-agents)
-  
-  - [📊 Usage Analytics Dashboard](#-usage-analytics-dashboard)
-  - [🔌 MCP Server Management](#-mcp-server-management)
-  - [⏰ Timeline & Checkpoints](#-timeline--checkpoints)
-  - [📝 CLAUDE.md Management](#-claudemd-management)
+  - [🗂️ **Project \& Session Management**](#️-project--session-management)
+  - [🤖 **CC Agents**](#-cc-agents)
+  - [📊 **Usage Analytics Dashboard**](#-usage-analytics-dashboard)
+  - [🔌 **MCP Server Management**](#-mcp-server-management)
+  - [⏰ **Timeline \& Checkpoints**](#-timeline--checkpoints)
+  - [📝 **CLAUDE.md Management**](#-claudemd-management)
 - [📖 Usage](#-usage)
   - [Getting Started](#getting-started)
   - [Managing Projects](#managing-projects)
@@ -58,12 +58,28 @@ Think of opcode as your command center for Claude Code - bridging the gap betwee
   - [Tracking Usage](#tracking-usage)
   - [Working with MCP Servers](#working-with-mcp-servers)
 - [🚀 Installation](#-installation)
+  - [Prerequisites](#prerequisites)
+  - [Release Executables Will Be Published Soon](#release-executables-will-be-published-soon)
 - [🔨 Build from Source](#-build-from-source)
+  - [Prerequisites](#prerequisites-1)
+    - [System Requirements](#system-requirements)
+    - [Required Tools](#required-tools)
+    - [Platform-Specific Dependencies](#platform-specific-dependencies)
+  - [Build Steps](#build-steps)
+  - [Troubleshooting](#troubleshooting)
+    - [Common Issues](#common-issues)
+    - [Verify Your Build](#verify-your-build)
+  - [Build Artifacts](#build-artifacts)
 - [🛠️ Development](#️-development)
+  - [Tech Stack](#tech-stack)
+  - [Project Structure](#project-structure)
+  - [Development Commands](#development-commands)
 - [🔒 Security](#-security)
 - [🤝 Contributing](#-contributing)
+  - [Areas for Contribution](#areas-for-contribution)
 - [📄 License](#-license)
 - [🙏 Acknowledgments](#-acknowledgments)
+- [Star History](#star-history)
 
 ## ✨ Features
 
@@ -259,7 +275,7 @@ brew install pkg-config
    **For Production Build**
    ```bash
    # Build the application
-   bun run tauri build
+   bun run tauri build  
    
    # The built executable will be in:
    # - Linux: src-tauri/target/release/
